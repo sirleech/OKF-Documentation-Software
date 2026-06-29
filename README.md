@@ -43,7 +43,7 @@ docs/
 │   └── decisions/
 │       ├── ADR-001.md
 │       ├── ADR-002.md
-│       └── README.md
+│       └── index.md
 │
 ├── 03-development/
 │   ├── setup/
