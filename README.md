@@ -1,6 +1,6 @@
-# OKF Documentation
+# OKF Documentation for Software
 
-OKF Spec
+Use the OKF Spec to setup the OKF documentation
 https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md
 
 This repository contains structured project documentation organized by domain. Each top-level folder covers a distinct area of the software lifecycle.
