@@ -1,197 +1,116 @@
-/docs
+# OKF Documentation
 
-│
+This repository contains structured project documentation organized by domain. Each top-level folder covers a distinct area of the software lifecycle.
 
+## Structure
+
+```
+docs/
 ├── 00-overview/
-
 │   ├── README.md
-
 │   ├── vision.md
-
 │   ├── architecture-summary.md
-
 │   └── glossary.md
-
 │
-
 ├── 01-product/
-
 │   ├── requirements/
-
 │   │   ├── functional-requirements.md
-
 │   │   ├── non-functional-requirements.md
-
 │   │   └── user-stories.md
-
-│   │
-
 │   ├── design/
-
 │   │   ├── ux-ui/
-
 │   │   ├── wireframes/
-
 │   │   └── design-decisions.md
-
-│   │
-
 │   └── roadmap/
-
 │       └── roadmap.md
-
 │
-
 ├── 02-architecture/
-
 │   ├── system-overview.md
-
 │   ├── diagrams/
-
 │   │   ├── context-diagram.png
-
 │   │   ├── container-diagram.png
-
 │   │   └── sequence-diagrams/
-
-│   │
-
 │   ├── components/
-
 │   │   ├── frontend.md
-
 │   │   ├── backend.md
-
 │   │   ├── database.md
-
 │   │   └── integrations.md
-
-│   │
-
 │   └── decisions/
-
 │       ├── ADR-001.md
-
 │       ├── ADR-002.md
-
 │       └── README.md
-
 │
-
 ├── 03-development/
-
 │   ├── setup/
-
 │   │   ├── local-setup.md
-
 │   │   ├── environment-variables.md
-
 │   │   └── dependencies.md
-
-│   │
-
 │   ├── coding-guidelines.md
-
 │   ├── branching-strategy.md
-
 │   ├── code-structure.md
-
 │   └── contribution-guide.md
-
 │
-
 ├── 04-api/
-
 │   ├── overview.md
-
 │   ├── authentication.md
-
 │   ├── endpoints/
-
 │   │   ├── users.md
-
 │   │   ├── auth.md
-
 │   │   └── products.md
-
-│   │
-
-│   └── openapi.yaml (or swagger.json)
-
+│   └── openapi.yaml
 │
-
 ├── 05-testing/
-
 │   ├── testing-strategy.md
-
 │   ├── unit-tests.md
-
 │   ├── integration-tests.md
-
 │   ├── e2e-tests.md
-
 │   └── test-data.md
-
 │
-
 ├── 06-deployment/
-
 │   ├── deployment-overview.md
-
 │   ├── ci-cd.md
-
 │   ├── environments.md
-
 │   ├── infrastructure.md
-
 │   └── rollback.md
-
 │
-
 ├── 07-operations/
-
 │   ├── monitoring.md
-
 │   ├── logging.md
-
 │   ├── alerts.md
-
 │   ├── incident-response.md
-
 │   └── maintenance.md
-
 │
-
 ├── 08-security/
-
 │   ├── security-overview.md
-
 │   ├── auth-authz.md
-
 │   ├── data-protection.md
-
 │   ├── threat-model.md
-
 │   └── compliance.md
-
 │
-
 ├── 09-user-docs/
-
 │   ├── getting-started.md
-
 │   ├── tutorials/
-
 │   ├── faq.md
-
 │   └── troubleshooting.md
-
 │
-
 └── 10-release-notes/
-
     ├── v1.0.0.md
-
     ├── v1.1.0.md
-
     └── changelog.md
+```
+
+## Sections
+
+| Folder | Purpose |
+|---|---|
+| `00-overview` | Project vision, high-level architecture, and shared glossary |
+| `01-product` | Requirements, design assets, and roadmap |
+| `02-architecture` | System design, component docs, and Architecture Decision Records (ADRs) |
+| `03-development` | Local setup, coding guidelines, branching, and contribution guide |
+| `04-api` | API overview, authentication, endpoint references, and OpenAPI spec |
+| `05-testing` | Testing strategy and docs for unit, integration, and end-to-end tests |
+| `06-deployment` | CI/CD pipelines, environment configs, infrastructure, and rollback procedures |
+| `07-operations` | Monitoring, logging, alerting, incident response, and maintenance |
+| `08-security` | Security overview, auth/authz, data protection, threat model, and compliance |
+| `09-user-docs` | End-user guides, tutorials, FAQ, and troubleshooting |
+| `10-release-notes` | Per-version release notes and running changelog |
