@@ -2,6 +2,8 @@
 
 This repository contains structured project documentation organized by domain. Each top-level folder covers a distinct area of the software lifecycle.
 
+If you are setting this up, and a section doesn't apply, don't include it at all (ie leave it out of the folder structure)
+
 ## Structure
 
 ```
