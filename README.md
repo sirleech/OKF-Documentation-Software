@@ -20,6 +20,7 @@ The full documentation lives in /docs and is read on demand, but two files are a
 ## Structure
 
 ```
+CLAUDE.md
 docs/
 ├── 00-overview/
 │   ├── README.md
