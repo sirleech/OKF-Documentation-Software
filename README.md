@@ -9,7 +9,8 @@ If you are setting this up, and a section doesn't apply, don't include it at all
 
 ## CLAUDE.md
 `the following goes into the MD with the @ imports`
-Always-loaded context
+
+### Always-loaded context
 
 The full documentation lives in /docs and is read on demand, but two files are auto-imported into every session so the contributor rules and the map of design-decision regression guards are always in context. Before changing any non-trivial subsystem read its ADR from the decisions index below — those files carry "don't reintroduce X" warnings for bugs that were already fixed once.
 
