@@ -93,8 +93,6 @@ docs/
 │   ├── usermanual.md
 │
 └── 10-release-notes/
-    ├── v1.0.0.md
-    ├── v1.1.0.md
     └── changelog.md
 ```
 
