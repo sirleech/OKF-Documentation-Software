@@ -90,10 +90,7 @@ docs/
 │   └── compliance.md
 │
 ├── 09-user-docs/
-│   ├── getting-started.md
-│   ├── tutorials/
-│   ├── faq.md
-│   └── troubleshooting.md
+│   ├── usermanual.md
 │
 └── 10-release-notes/
     ├── v1.0.0.md
