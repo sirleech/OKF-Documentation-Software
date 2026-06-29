@@ -7,6 +7,15 @@ This repository contains structured project documentation organized by domain. E
 
 If you are setting this up, and a section doesn't apply, don't include it at all (ie leave it out of the folder structure)
 
+## CLAUDE.md
+Always-loaded context
+
+The full documentation lives in /docs and is read on demand, but two files are auto-imported into every session so the contributor rules and the map of design-decision regression guards are always in context. Before changing any non-trivial subsystem read its ADR from the decisions index below — those files carry "don't reintroduce X" warnings for bugs that were already fixed once.
+
+## Imports
+@docs/03-development/coding-guidelines.md @docs/02-architecture/decisions/index.md
+
+
 ## Structure
 
 ```
